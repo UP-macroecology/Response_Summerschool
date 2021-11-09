@@ -32,7 +32,6 @@ library(mecofun)
 # Set your working directory to the workshop folder, e.g 
 setwd('Response_Summerschool/SDM')
 
-setwd("/Users/zurell/data/Lehre/workshops_tutorials/Response_2021/Response_Summerschool/SDM")
 
 #--------------------------------------------------------------------------------
 #
