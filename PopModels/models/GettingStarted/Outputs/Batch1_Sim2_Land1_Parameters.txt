@@ -1,0 +1,101 @@
+RangeShifter 2.0 
+================    =====================
+
+BATCH MODE 	yes
+SEED 	3971614373
+REPLICATES 	2
+YEARS 	50
+REPRODUCTIVE SEASONS / YEAR	1
+CELL-BASED MODEL
+BOUNDARIES 	reflective
+
+LANDSCAPE:	artificially generated map
+TYPE: 	discrete 	fractal
+PROPORTION OF SUITABLE HABITAT (p)	0.2
+HURST EXPONENT	0.3
+RESOLUTION (m): 	10
+DIMENSIONS:  X 129  Y 257
+AVAILABLE:   min.X 0 min.Y 0  max.X 128 max.Y 256
+
+SPECIES DISTRIBUTION LOADED: 	no
+
+ENVIRONMENTAL GRADIENT:	 no
+ENVIRONMENTAL STOCHASTICITY:	no
+LOCAL EXTINCTION PROBABILITY:	0.0
+
+SPECIES' PARAMETERS.
+REPRODUCTION:
+TYPE: Sexual model (simple)
+PROP. of MALES	0.45
+STAGE STRUCTURE:	yes
+PROBABILITY OF REPRODUCING IN SUBSEQUENT SEASONS	1
+No. OF REP. SEASONS BEFORE SUBSEQUENT REPRODUCTIONS	0
+No. STAGES	3
+MAX. AGE	100
+MIN. AGES:
+stage	0:	0	years
+stage	1:	0	years
+stage	2:	0	years
+FECUNDITIES:
+stage	0:	0
+stage	1:	5.7
+stage	2:	3.4
+DEVELOPMENT PROB.:
+stage	0:	1
+stage	1:	0.444444
+stage	2:	0
+SURVIVAL PROB.:
+stage	0:	1
+stage	1:	0.9
+stage	2:	0.9
+SCHEDULING OF SURVIVAL: Between reproductive events
+DENSITY-DEPENDENCE IN FECUNDITY:	yes
+not stage-dependent
+DENSITY-DEPENDENCE IN DEVELOPMENT:	no
+DENSITY-DEPENDENCE IN SURVIVAL:		yes - coefficient: 1
+not stage-dependent
+
+HABITAT SPECIFIC 1/b:
+Habitat 0: 1/b 0
+Habitat 1: 1/b 1500
+
+DISPERSAL - EMIGRATION:	density-independent
+USE FULL KERNEL TO DETERMINE EMIGRATION: no
+SEX-DEPENDENT:   no
+STAGE-DEPENDENT: no
+INDIVIDUAL VARIABILITY: no
+EMIGRATION PROB.:	0.2
+
+DISPERSAL - TRANSFER: 	dispersal kernel
+TYPE: 	negative exponential
+SEX-DEPENDENT:   no
+STAGE-DEPENDENT: no
+INDIVIDUAL VARIABILITY: no
+MEAN DISTANCE I: 	50
+DISPERSAL MORTALITY:   constant
+MORTALITY PROBABILITY: 0
+
+DISPERSAL - SETTLEMENT:
+SEX-DEPENDENT:   no
+STAGE-DEPENDENT: no
+IF THE ARRIVAL CELL/PATCH IS UNSUITABLE: die
+MATING REQUIREMENTS: no
+
+GENETICS:
+No. of variable traits:  0
+
+INITIALISATION CONDITIONS:
+Free initialisation: 	Random 	No. of cells/patches: 2250
+INITIAL NO. OF INDIVIDUALS: 	3 individuals per cell
+INITIAL STAGE PROPORTIONS:
+stage 1: 0.7 	stage 2: 0.3 	
+Initial age distribution: quasi-equilibrium
+GEOGRAPHICAL CONSTRAINTS (cell numbers): 
+min X: 0 max X: 99999999
+min Y: 0 max Y: 99999999
+
+OUTPUTS:
+Range - every 1 year
+Populations - every 50 years
+SAVE MAPS: no
+SAVE TRAITS MAPS: no
