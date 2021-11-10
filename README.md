@@ -4,7 +4,7 @@
 
 Teaching material by Damaris Zurell and Anne Malchow (Ecology & Macroecology, Univ. Potsdam) on:
 * Species distribution modelling (SDM)
-* Spatially explicit population modelling 
+* Spatially explicit population modelling (SEPM)
 
 ## Additional resources for self-study
 
